@@ -4,6 +4,7 @@ import WhyIT from './slides/WhyIT';
 import Projects from './slides/Projects';
 import Phoenix from './slides/Phoenix';
 import Final from './slides/FinalSlide';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
