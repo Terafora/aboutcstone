@@ -29,14 +29,11 @@ function App() {
       }
     };
 
-    // Add the event listener
     window.addEventListener('keydown', handleKey);
-
-    // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener('keydown', handleKey);
     };
-  }, [slides.length]); // Dependency array includes slides.length
+  }, [slides.length]);
 
   return <>{slides[currentSlide]}</>;
 }
