@@ -1,7 +1,7 @@
 const Intro = () => {
   return (
     <div>
-      <h2>Placeholder text :)</h2>
+      <h2>Intro Slide</h2>
     </div>
   );
 };
