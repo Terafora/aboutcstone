@@ -1,9 +1,12 @@
+import {useTranslation} from 'react-i18next';
+
 const Projects = () => {
-  return (
-    <div>
-      <h2>Projects Slide</h2>
-    </div>
-  );
+    const {t} = useTranslation();
+    return (
+        <div>
+        <h2>{t("project")}</h2>
+        </div>
+    );
 };
 
 export default Projects;

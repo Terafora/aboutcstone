@@ -1,7 +1,10 @@
+import {useTranslation} from 'react-i18next';
+
 const WhyIT = () => {
+  const {t} = useTranslation();
   return (
     <div>
-      <h2>Why IT Slide</h2>
+      <h2>{t('why_it')}</h2>
     </div>
   );
 };

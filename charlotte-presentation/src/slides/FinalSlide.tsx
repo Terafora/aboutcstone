@@ -1,7 +1,10 @@
+import {useTranslation} from 'react-i18next';
+
 const Final = () => {
+  const {t} = useTranslation();
   return (
     <div>
-      <h2>Final Slide</h2>
+      <h2>{t("final")}</h2>
     </div>
   );
 };
