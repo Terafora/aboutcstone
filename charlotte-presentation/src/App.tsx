@@ -20,7 +20,7 @@ function App() {
 
   //This is for using arrow keys to move between "slides"
   useEffect(() => {
-    const handleKey = (e: KeyboardEvent) => {
+    const handleKey = (e: KeyboardEvent):void => {
       if (e.key === 'ArrowRight') {
         setCurrentSlide((prev) => Math.min(prev + 1, slides.length - 1));
       }
