@@ -1,9 +1,13 @@
+import {useTranslation} from 'react-i18next';
+
 const Intro = () => {
-  return (
-    <div>
-      <h2>Intro Slide</h2>
-    </div>
-  );
-};
+
+    const {t} = useTranslation();
+    return (
+        <div>
+        <h2>{t('intro')}</h2>
+        </div>
+    );
+    };
 
 export default Intro;

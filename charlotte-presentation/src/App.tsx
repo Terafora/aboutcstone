@@ -5,7 +5,7 @@ import Projects from './slides/Projects';
 import Phoenix from './slides/Phoenix';
 import Final from './slides/FinalSlide';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './App.scss';
 
 function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
