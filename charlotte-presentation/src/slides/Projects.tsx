@@ -4,7 +4,7 @@ const Projects = () => {
     const {t} = useTranslation();
     return (
         <div>
-        <h2>{t("project")}</h2>
+        <h2>{t("projects")}</h2>
         </div>
     );
 };
