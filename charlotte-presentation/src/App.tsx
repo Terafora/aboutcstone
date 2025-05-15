@@ -4,13 +4,13 @@ import WhyIT from './slides/WhyIT';
 import Projects from './slides/Projects';
 import Phoenix from './slides/Phoenix';
 import Final from './slides/FinalSlide';
+import LanguageSelect from './components/LanguageSelect';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
 function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  //My slides array
   const slides = [
     <Intro/>,
     <WhyIT/>,
@@ -21,7 +21,7 @@ function App() {
 
   //This is for using arrow keys to move between "slides"
   useEffect(() => {
-    const handleKey = (e: KeyboardEvent):void => {
+    const handleKey = (e: KeyboardEvent): void => {
       if (e.key === 'ArrowRight') {
         setCurrentSlide((prev) => Math.min(prev + 1, slides.length - 1));
       }
@@ -36,7 +36,20 @@ function App() {
     };
   }, [slides.length]);
 
-  return <>{slides[currentSlide]}</>;
+  return (
+    <div>
+      <div className="pride-flag">
+        <div className="red"></div>
+        <div className="orange"></div>
+        <div className="yellow"></div>
+        <div className="green"></div>
+        <div className="blue"></div>
+        <div className="purple"></div>
+      </div>
+      <LanguageSelect />
+      {slides[currentSlide]}
+    </div>
+  );
 }
 
 export default App;

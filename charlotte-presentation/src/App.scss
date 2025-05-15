@@ -40,3 +40,28 @@
 .read-the-docs {
   color: #888;
 }
+
+.pride-flag {
+  position: absolute;
+  top: 5rem;
+  left: -5rem;
+  width: 20rem; // Adjust width as needed
+  height: 100px; // Adjust height as needed
+  transform: rotate(-45deg);
+  transform-origin: top left;
+  z-index: 1000; // Ensure it stays on top
+  display: flex;
+  flex-direction: column;
+}
+
+.pride-flag div {
+  flex: 1; // Each stripe takes up equal space
+  width: 100%; // Full width of the flag
+}
+
+.pride-flag .red { background-color: #e40303; } // Red
+.pride-flag .orange { background-color: #ff8c00; } // Orange
+.pride-flag .yellow { background-color: #ffed00; } // Yellow
+.pride-flag .green { background-color: #008026; } // Green
+.pride-flag .blue { background-color: #004dff; } // Blue
+.pride-flag .purple { background-color: #750787; } // Purple
