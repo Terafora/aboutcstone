@@ -1,19 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Rosarivo:ital@0;1&display=swap');
 
-$background: #1F3138;
+$background: #E3E869;
 $accent: #AB904E;
 
 #root {
-  max-width: 1280px;
+  max-width: 100vw;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
+  max-height: 100vh;
 }
+
 body {
   background-color: $background;
   color: #cccaca;
   font-family: "Rosarivo", cursive;
   font-weight: 500;
+  overflow: hidden;
+}
+
+.main-content{
+  position: relative;
+  z-index: 100;
 }
 
 .pride-flag {
@@ -40,3 +48,14 @@ body {
 .pride-flag .green { background-color: #008026; }
 .pride-flag .blue { background-color: #004dff; }
 .pride-flag .purple { background-color: #750787; }
+
+// background elements
+
+.background-container {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: $background;
+  overflow: hidden;
+  z-index: 0;
+}
