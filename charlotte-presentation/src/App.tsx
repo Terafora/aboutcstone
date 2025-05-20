@@ -6,6 +6,7 @@ import Phoenix from './slides/Phoenix';
 import Final from './slides/FinalSlide';
 import LanguageSelect from './components/LanguageSelect';
 import InfoBar from './components/InfoBar';
+import SideMenu from './components/SideMenu';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
@@ -18,7 +19,15 @@ function App() {
     <Projects/>,
     <Phoenix/>,
     <Final/>
-  ]
+  ];
+
+  const slideNames = [
+    'intro',
+    'why_it',
+    'projects',
+    'phoenix',
+    'final'
+  ];
 
   //This is for using arrow keys to move between "slides"
   useEffect(() => {
@@ -48,6 +57,7 @@ function App() {
         <div className="purple"></div>
       </div>
       <LanguageSelect />
+      <SideMenu slides={slideNames} currentSlide={currentSlide} onSelect={setCurrentSlide} />
       <div className="main-content">
       {slides[currentSlide]}
       </div>
