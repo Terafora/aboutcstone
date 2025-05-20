@@ -4,8 +4,8 @@ import WhyIT from './slides/WhyIT';
 import Projects from './slides/Projects';
 import Phoenix from './slides/Phoenix';
 import Final from './slides/FinalSlide';
-import BackgroundLayout from './components/BackgroundLayout'
 import LanguageSelect from './components/LanguageSelect';
+import InfoBar from './components/InfoBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
@@ -39,7 +39,6 @@ function App() {
 
   return (
     <div>
-      <BackgroundLayout />
       <div className="pride-flag">
         <div className="red"></div>
         <div className="orange"></div>
@@ -49,7 +48,10 @@ function App() {
         <div className="purple"></div>
       </div>
       <LanguageSelect />
+      <div className="main-content">
       {slides[currentSlide]}
+      </div>
+      <InfoBar currentSlide={currentSlide} />
     </div>
   );
 }

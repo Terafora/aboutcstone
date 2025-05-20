@@ -1,0 +1,32 @@
+.info-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 3.5rem;
+  background: #E3E869;
+  color: #8f8f8f;
+  overflow: hidden;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: inherit;
+}
+
+.info-bar__scroll {
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform;
+  animation: scroll-left-once 20s linear infinite;
+  /* Adjust duration as needed */
+}
+
+@keyframes scroll-left-once {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

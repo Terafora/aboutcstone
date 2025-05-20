@@ -12,8 +12,12 @@ $accent: #AB904E;
 }
 
 body {
+  background-image: url('./assets/bg-items/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-color: #fff;
-  color: #cccaca;
+  color: #8f8f8f;
   font-family: "Rosarivo", cursive;
   font-weight: 500;
   overflow: hidden;
@@ -40,6 +44,7 @@ body {
 .pride-flag div {
   flex: 1;
   width: 100%;
+  z-index: 1000;
 }
 
 .pride-flag .red { background-color: #e40303; }
@@ -61,12 +66,4 @@ body {
   z-index: 0;
 }
 
-.hairmain {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 100vh;
-  object-fit: contain;
-  z-index: 0;
-  pointer-events: none;
-}
+
