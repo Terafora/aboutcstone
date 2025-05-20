@@ -4,7 +4,8 @@ const WhyIT = () => {
   const {t} = useTranslation();
   return (
     <div>
-      <h2>{t('why_it')}</h2>
+      <h1>{t('why_it')}</h1>
+      
     </div>
   );
 };

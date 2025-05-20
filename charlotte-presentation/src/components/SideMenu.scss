@@ -20,6 +20,7 @@
     font-size: 1.5rem;
     text-align: start;
     transition: color 0.2s, font-weight 0.2s;
+
     // Grey box to the left
     &::before {
       content: '';
