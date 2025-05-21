@@ -1,4 +1,4 @@
-import {useTranslation} from 'react-i18next';
+import {useTranslation, Trans} from 'react-i18next';
 
 const Projects = () => {
     const {t} = useTranslation();

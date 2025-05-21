@@ -12,6 +12,7 @@ import './App.scss';
 
 function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [animateKey, setAnimateKey] = useState(0);
 
   const slides = [
     <Intro/>,
@@ -22,12 +23,16 @@ function App() {
   ];
 
   const slideNames = [
-    'intro',
-    'why_it',
-    'projects',
-    'phoenix',
-    'final'
+    'slide1',
+    'slide2',
+    'slide3',
+    'slide4',
+    'slide5'
   ];
+
+  useEffect(() => {
+    setAnimateKey(prev => prev + 1);
+  }, [currentSlide]);
 
   //This is for using arrow keys to move between "slides"
   useEffect(() => {
@@ -58,7 +63,7 @@ function App() {
       </div>
       <LanguageSelect />
       <SideMenu slides={slideNames} currentSlide={currentSlide} onSelect={setCurrentSlide} />
-      <div className="main-content">
+      <div className="main-content" key={animateKey}>
       {slides[currentSlide]}
       </div>
       <InfoBar currentSlide={currentSlide} />

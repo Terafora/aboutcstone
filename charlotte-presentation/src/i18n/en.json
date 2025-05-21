@@ -1,12 +1,28 @@
 {
   "language": "Please select your language",
+  "slides":{
+    "slide1": "Intro",
+    "slide2": "Why IT",
+    "slide3": "My Projects",
+    "slide4": "Phoenix Medical",
+    "slide5": "Final Thoughts" 
+  },
   "intro": "Hi, I'm Charlotte",
-  "sub-header":"Software Developer | Technical Translator", 
+  "sub-header":"Software Developer | Technical Translator<br/>Language Teacher", 
   "why_it": "Why I Chose IT",
+  "slide-2": {
+    "reason1": "Creative Yet Logical",
+    "reason2": "Make a difference",
+    "reason3": "I like to make cool stuff",
+    "reason4": "I want tech to be accessible",
+    "reason5": "IT lets me keep learning and growing"
+  },
   "projects": "My Projects",
   "phoenix": "Why Phoenix Medical",
   "final": "Let's Build Something Meaningful",
   "infobar_0": "Welcome to my presentation | Use the arrow keys to navigate or use the menu in the bottom left",
   "infobar_1": "Find out a little about why I chose IT and what interests me",
-  "infobar_2": "Take a look at some of the projects I've worked on in the past as well as my work and volunteering history"
+  "infobar_2": "Take a look at some of the projects I've worked on in the past as well as my work and volunteering history",
+  "infobar_3": "Find out why Charlotte Stone is such a good fit for Phoenix Medical",
+  "infobar_4": "Working alongside one another, we can make something meaningful"
 }

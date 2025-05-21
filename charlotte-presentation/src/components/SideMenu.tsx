@@ -18,7 +18,7 @@ const SideMenu = ({ slides, currentSlide, onSelect }: SideMenuProps) => {
             className={idx === currentSlide ? 'active' : ''}
             onClick={() => onSelect(idx)}
           >
-            {t(slide)}
+            {t(`slides.${slide}`)}
           </li>
         ))}
       </ul>
