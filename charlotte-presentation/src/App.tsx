@@ -53,13 +53,10 @@ function App() {
 
   return (
     <div>
-      <div className="pride-flag">
-        <div className="red"></div>
-        <div className="orange"></div>
-        <div className="yellow"></div>
-        <div className="green"></div>
+      <div className="pride-flag trans-flag">
+        <div className="white"></div>
+        <div className="pink"></div>
         <div className="blue"></div>
-        <div className="purple"></div>
       </div>
       <LanguageSelect />
       <SideMenu slides={slideNames} currentSlide={currentSlide} onSelect={setCurrentSlide} />

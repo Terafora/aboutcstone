@@ -45,17 +45,19 @@ h2, p {
   white-space: normal;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none;  /* IE and Edge */
-  animation: slide-fade-in 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  animation: slide-fade-in-blur 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
 }
 
-@keyframes slide-fade-in {
+@keyframes slide-fade-in-blur {
   from {
     opacity: 0;
     transform: translateX(60px);
+    filter: blur(16px);
   }
   to {
     opacity: 1;
     transform: translateX(0);
+    filter: blur(0);
   }
 }
 
@@ -88,6 +90,23 @@ h2, p {
 .pride-flag .green { background-color: #008026; }
 .pride-flag .blue { background-color: #004dff; }
 .pride-flag .purple { background-color: #750787; }
+
+.pride-flag.trans-flag {
+  position: absolute;
+  top: 5rem;
+  left: -5rem;
+  width: 20rem;
+  height: 100px;
+  transform: rotate(-45deg);
+  transform-origin: top left;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+.pride-flag.trans-flag .blue { background-color: #55CDFC; }
+.pride-flag.trans-flag .pink { background-color: #F7A8B8; }
+.pride-flag.trans-flag .white { background-color: #fff; }
 
 // background elements
 
