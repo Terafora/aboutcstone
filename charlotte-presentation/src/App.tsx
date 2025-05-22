@@ -61,7 +61,7 @@ function App() {
       <LanguageSelect />
       <SideMenu slides={slideNames} currentSlide={currentSlide} onSelect={setCurrentSlide} />
       <div className="corner-cover" />
-      <div className="corner-cover bottom" /> {/* Add this line */}
+      <div className="corner-cover bottom" />
       <div className="main-content" key={animateKey}>
       {slides[currentSlide]}
       </div>
