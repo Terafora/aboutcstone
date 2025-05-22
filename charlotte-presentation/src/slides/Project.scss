@@ -1,0 +1,98 @@
+$menu-bg: #AB904E;
+$menu-bg-selected: #FFFCE0;
+$menu-text: #FFFFFF;
+$menu-text-muted: #999999;
+$menu-rank: #E3E869;
+
+h2 {
+    text-align: center !important;
+    padding-bottom: 2rem;
+}
+
+.diagonal-scroll-wrapper {
+  width: 42vw;
+  height: 75vh;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  overflow-y: visible;
+  overflow-x: hidden;
+  transform: rotate(5deg);
+  transform-origin: top left;
+}
+
+.timeline-container {
+  transform: rotate(-5deg);
+  transform-origin: top left;
+  width: 44vw;
+  margin: 0 auto;
+  padding: 1rem 0;
+  font-family: "Prompt", sans-serif;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left: 0;
+  position: relative;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  border-left: 4px solid $menu-bg;
+  padding-left: 1rem;
+  list-style: none;
+  transition: transform 0.2s ease-in-out;
+  @for $i from 1 through 50 {
+    &:nth-child(#{$i}) {
+      right: ($i - 1) * 1.2rem;
+    }
+  }
+}
+
+.timeline-content {
+  background: $menu-bg-selected;
+  border: 2px solid $menu-bg;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: $menu-bg;
+  width: 85%;
+  margin-left: 1rem;
+  transform: skewX(-12deg);
+
+  // Unskew child elements
+  * {
+    transform: skewX(-12deg);
+  }
+
+  .timeline-date {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: $menu-rank;
+    margin-bottom: 0.5rem;
+  }
+
+  .timeline-title {
+    font-size: 1.3rem;
+    margin: 0;
+    color: $menu-bg;
+  }
+
+  .timeline-description {
+    font-size: 1rem;
+    color: $menu-text-muted;
+    margin-top: 0.3rem;
+  }
+  .timeline-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -6px;
+    width: 6px;
+    height: 100%;
+    background: $menu-bg;
+  }
+}
