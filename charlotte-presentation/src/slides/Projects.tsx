@@ -1,4 +1,5 @@
 import {useTranslation} from 'react-i18next';
+import './Project.scss'
 
 const Projects = () => {
     const {t} = useTranslation();
