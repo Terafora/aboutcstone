@@ -35,7 +35,7 @@ const projects = [
     },   
 ];
 
-const work = [
+{/* const work = [
     {
         title: "LangBloom",
         date: "2025",
@@ -65,6 +65,7 @@ const work = [
         link: "https://my-mix-tapes-a7ee13848429.herokuapp.com"
     },   
 ];
+*/}
 
 const Projects = () => {
     const { t } = useTranslation();
