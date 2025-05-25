@@ -5,7 +5,7 @@ const WhyIT = () => {
   const {t} = useTranslation();
   return (
     <section>
-      <h1>{t('why_it')}</h1>
+      <h1> </h1>
       <ul className="reasons">
         <li>{t('slide-2.reason1')}</li>
         <li>{t('slide-2.reason2')}</li>

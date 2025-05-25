@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import Intro from './slides/Intro';
 import WhyIT from './slides/WhyIT';
 import Projects from './slides/Projects';
+import Work from './slides/WorkHistory';
+import Volunteer from './slides/Volunteer';
 import Phoenix from './slides/Phoenix';
 import Final from './slides/FinalSlide';
 import LanguageSelect from './components/LanguageSelect';
@@ -18,6 +20,8 @@ function App() {
     <Intro/>,
     <WhyIT/>,
     <Projects/>,
+    <Work />,
+    <Volunteer />,
     <Phoenix/>,
     <Final/>
   ];
@@ -26,6 +30,8 @@ function App() {
     'slide1',
     'slide2',
     'slide3',
+    'slide6',
+    'slide7',
     'slide4',
     'slide5'
   ];

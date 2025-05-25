@@ -8,7 +8,7 @@ const projects = [
     {
         title: "LangBloom",
         date: "2025",
-        description: 'A full-stack SaaS for assisting with the admin side of language teaching. <br/> Currently a WIP so link withheld.<br/>React, TypeScript,PWA,Nhost ("vibe coding" so a very AI assisted project)',
+        description: 'A full-stack SaaS for assisting with the admin side of language teaching. <br/> Currently a WIP so link withheld.<br/>React, TypeScript,PWA,Nhost (A very AI assisted project)',
         img: "",
         link: ""
     },
@@ -34,38 +34,6 @@ const projects = [
         link: "https://my-mix-tapes-a7ee13848429.herokuapp.com"
     },   
 ];
-
-{/* const work = [
-    {
-        title: "LangBloom",
-        date: "2025",
-        description: 'A full-stack SaaS for assisting with the admin side of language teaching. <br/> Currently a WIP so link withheld.<br/>React, TypeScript,PWA,Nhost ("vibe coding" so a very AI assisted project)',
-        img: "",
-        link: ""
-    },
-    {
-        title: "Project Exit Velocity",
-        date: "2024 - 2025",
-        description: "A full-stack MERN blog for sharing progress on personal projects and learning.<br/>MERN, JWT, Typsecript",
-        img: PEVImg,
-        link: "https://github.com/Terafora/project-exit-velocity-blog"
-    },
-    {
-        title: "YomiSaver",
-        date: "2024",
-        description: "A Chrome extension for simplifying the learning process for Japanese.<br/>HTML, CSS, Vanilla JavaScript",
-        img: YS,
-        link: "https://github.com/Terafora/Yomisaver-Free"
-    },
-    {
-        title: "My Mixtape",
-        date: "2022",
-        description: "A full-stack site for creating and sharing mixtapes to share with others.<br/>Python, Django",
-        img: MMT,
-        link: "https://my-mix-tapes-a7ee13848429.herokuapp.com"
-    },   
-];
-*/}
 
 const Projects = () => {
     const { t } = useTranslation();
