@@ -1,8 +1,36 @@
 {
-  "language": "Por favor, selecciona tu idioma",
-  "intro": "Hola, soy Charlotte.",
-  "why_it": "Por qué elegí informática",
-  "projects": "Mis proyectos",
+  "language": "Por favor, seleccione su idioma",
+  "slides": {
+    "slide1": "Introducción",
+    "slide2": "Por qué IT",
+    "slide3": "Mis Proyectos",
+    "slide4": "Phoenix Medical",
+    "slide5": "Reflexiones Finales",
+    "slide6": "Historial Laboral",
+    "slide7": "Historial de Voluntariado"
+  },
+  "intro": "Hola, soy Charlotte",
+  "sub-header": "Desarrolladora de Software | Traductora Técnica<br/>Profesora de Idiomas",
+  "why_it": "Por qué elegí IT",
+  "slide-2": {
+    "reason1": "Creativa pero lógica",
+    "reason2": "Marcar la diferencia",
+    "reason3": "Me gusta crear cosas geniales",
+    "reason4": "Quiero que la tecnología sea accesible",
+    "reason5": "IT me permite seguir aprendiendo y creciendo"
+  },
+  "slide3": {
+    "lbdesc": "Un SaaS full-stack para ayudar con el lado administrativo de la enseñanza de idiomas. Actualmente en desarrollo, por lo que el enlace no está disponible.<br />React, TypeScript, PWA, Nhost (Un proyecto muy asistido por IA)",
+    "pevdesc": "Un blog full-stack MERN para compartir el progreso de proyectos personales y aprendizaje.<br />MERN, JWT, TypeScript",
+    "ysdesc": "Una extensión de Chrome para simplificar el aprendizaje del japonés.<br />HTML, CSS, Vanilla JavaScript",
+    "mmdesc": "Un sitio web full-stack para crear y compartir mixtapes.<br />Python, Django"
+  },
+  "projects": "Mis Proyectos",
   "phoenix": "Por qué Phoenix Medical",
-  "final": "Construyamos algo significativo"
+  "final": "Construyamos algo significativo juntos",
+  "infobar_0": "Bienvenido a mi presentación | Utilice las flechas o el menú en la esquina inferior izquierda",
+  "infobar_1": "Descubra por qué elegí IT y qué me interesa",
+  "infobar_2": "Explore algunos de mis proyectos, mi experiencia laboral y mi voluntariado",
+  "infobar_3": "Descubra por qué Charlotte Stone es la opción ideal para Phoenix Medical",
+  "infobar_4": "Juntos podemos crear algo significativo"
 }

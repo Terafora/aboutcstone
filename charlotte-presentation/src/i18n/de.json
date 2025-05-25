@@ -1,8 +1,36 @@
 {
   "language": "Bitte wählen Sie Ihre Sprache aus",
-  "intro": "Hallo, ich bin Charlotte.",
+  "slides": {
+    "slide1": "Einführung",
+    "slide2": "Warum IT",
+    "slide3": "Meine Projekte",
+    "slide4": "Phoenix Medical",
+    "slide5": "Abschließende Gedanken",
+    "slide6": "Berufserfahrung",
+    "slide7": "Ehrenamtliche Tätigkeiten"
+  },
+  "intro": "Hallo, ich bin Charlotte",
+  "sub-header": "Softwareentwicklerin | Technische Übersetzerin<br/>Sprachlehrerin",
   "why_it": "Warum ich IT gewählt habe",
+  "slide-2": {
+    "reason1": "Kreativ und logisch",
+    "reason2": "Einen Unterschied machen",
+    "reason3": "Ich mag es, coole Sachen zu machen",
+    "reason4": "Technologie für alle zugänglich machen",
+    "reason5": "IT erlaubt es mir, immer weiter zu lernen und zu wachsen"
+  },
+  "slide3": {
+    "lbdesc": "Ein Full-Stack-SaaS zur Unterstützung der administrativen Seite des Sprachunterrichts. Derzeit in Arbeit, daher kein Link.<br />React, TypeScript, PWA, Nhost (Ein stark KI-unterstütztes Projekt)",
+    "pevdesc": "Ein Full-Stack-MERN-Blog zum Teilen von Fortschritten bei persönlichen Projekten und zum Lernen.<br />MERN, JWT, TypeScript",
+    "ysdesc": "Eine Chrome-Erweiterung zur Vereinfachung des Japanischlernens.<br />HTML, CSS, Vanilla JavaScript",
+    "mmdesc": "Eine Full-Stack-Website zum Erstellen und Teilen von Mixtapes.<br />Python, Django"
+  },
   "projects": "Meine Projekte",
   "phoenix": "Warum Phoenix Medical",
-  "final": "Lass uns etwas Bedeutungsvolles bauen"
+  "final": "Lassen Sie uns etwas Sinnvolles schaffen",
+  "infobar_0": "Willkommen zu meiner Präsentation | Navigieren Sie mit den Pfeiltasten oder dem Menü unten links",
+  "infobar_1": "Erfahren Sie, warum ich IT gewählt habe und was mich interessiert",
+  "infobar_2": "Sehen Sie sich einige meiner bisherigen Projekte, meine Berufserfahrung und mein Ehrenamt an",
+  "infobar_3": "Erfahren Sie, warum Charlotte Stone perfekt zu Phoenix Medical passt",
+  "infobar_4": "Gemeinsam können wir etwas Sinnvolles schaffen"
 }

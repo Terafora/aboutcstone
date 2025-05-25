@@ -1,8 +1,36 @@
 {
-    "language": "Veuillez sélectionner votre langue",
-  "intro": "Salut, je suis Charlotte.",
-  "why_it": "Pourquoi j'ai choisi l'informatique",
-  "projects": "Mes projets",
+  "language": "Veuillez sélectionner votre langue",
+  "slides": {
+    "slide1": "Introduction",
+    "slide2": "Pourquoi l'IT",
+    "slide3": "Mes Projets",
+    "slide4": "Phoenix Medical",
+    "slide5": "Réflexions Finales",
+    "slide6": "Historique Professionnel",
+    "slide7": "Historique de Bénévolat"
+  },
+  "intro": "Bonjour, je suis Charlotte",
+  "sub-header": "Développeuse Logiciel | Traductrice Technique<br/>Professeure de Langues",
+  "why_it": "Pourquoi j'ai choisi l'IT",
+  "slide-2": {
+    "reason1": "Créatif et logique",
+    "reason2": "Faire une différence",
+    "reason3": "J'aime créer des choses cool",
+    "reason4": "Rendre la technologie accessible à tous",
+    "reason5": "L'IT me permet de continuer à apprendre et à évoluer"
+  },
+  "slide3": {
+    "lbdesc": "Un SaaS full-stack pour aider à la gestion administrative de l'enseignement des langues. Actuellement en cours, lien non disponible.<br />React, TypeScript, PWA, Nhost (Un projet fortement assisté par l'IA)",
+    "pevdesc": "Un blog full-stack MERN pour partager les progrès des projets personnels et l'apprentissage.<br />MERN, JWT, TypeScript",
+    "ysdesc": "Une extension Chrome pour simplifier l'apprentissage du japonais.<br />HTML, CSS, Vanilla JavaScript",
+    "mmdesc": "Un site full-stack pour créer et partager des mixtapes.<br />Python, Django"
+  },
+  "projects": "Mes Projets",
   "phoenix": "Pourquoi Phoenix Medical",
-  "final": "Construisons quelque chose de significatif"
+  "final": "Construisons ensemble quelque chose de significatif",
+  "infobar_0": "Bienvenue dans ma présentation | Utilisez les flèches ou le menu en bas à gauche",
+  "infobar_1": "Découvrez pourquoi j'ai choisi l'IT et ce qui me passionne",
+  "infobar_2": "Explorez certains de mes projets, mon expérience professionnelle et mes activités bénévoles",
+  "infobar_3": "Découvrez pourquoi Charlotte Stone est le choix idéal pour Phoenix Medical",
+  "infobar_4": "Ensemble, nous pouvons créer quelque chose de significatif"
 }

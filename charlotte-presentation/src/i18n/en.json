@@ -19,6 +19,12 @@
     "reason4": "I want tech to be accessible",
     "reason5": "IT lets me keep learning and growing"
   },
+  "slide3": {
+    "lbdesc": "A full-stack SaaS for assisting with the admin side of language teaching.Currently a WIP so link withheld.<br />React, TypeScript,PWA,Nhost (A very AI assisted project)",
+    "pevdesc": "A full-stack MERN blog for sharing progress on personal projects and learning.<br />MERN, JWT, Typsecript",
+    "ysdesc": "A Chrome extension for simplifying the learning process for Japanese.<br />HTML, CSS, Vanilla JavaScript",
+    "mmdesc": "A full-stack site for creating and sharing mixtapes to share with others.<br />Python, Django"
+  },
   "projects": "My Projects",
   "phoenix": "Why Phoenix Medical",
   "final": "Let's Build Something Meaningful",

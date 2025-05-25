@@ -1,8 +1,36 @@
 {
   "language": "Por favor, selecione seu idioma",
-  "intro": "Oi, eu sou a Charlotte.",
+  "slides": {
+    "slide1": "Introdução",
+    "slide2": "Por que TI",
+    "slide3": "Meus Projetos",
+    "slide4": "Phoenix Medical",
+    "slide5": "Reflexões Finais",
+    "slide6": "Histórico Profissional",
+    "slide7": "Histórico de Voluntariado"
+  },
+  "intro": "Olá, Eu sou Charlotte",
+  "sub-header": "Desenvolvedora de Software | Tradutora Técnica<br/>Professora de Idiomas",
   "why_it": "Por que escolhi TI",
-  "projects": "Meus projetos",
+  "slide-2": {
+    "reason1": "Criativo, mas lógico",
+    "reason2": "Fazer a diferença",
+    "reason3": "Gosto de criar coisas legais",
+    "reason4": "Quero tornar a tecnologia acessível",
+    "reason5": "TI me permite continuar aprendendo e crescendo"
+  },
+  "slide3": {
+    "lbdesc": "Um SaaS full-stack para auxiliar na parte administrativa do ensino de idiomas. Atualmente em desenvolvimento, portanto o link está indisponível.<br />React, TypeScript, PWA, Nhost (Um projeto altamente assistido por IA)",
+    "pevdesc": "Um blog full-stack MERN para compartilhar o progresso de projetos pessoais e aprendizado.<br />MERN, JWT, TypeScript",
+    "ysdesc": "Uma extensão do Chrome para simplificar o aprendizado do japonês.<br />HTML, CSS, Vanilla JavaScript",
+    "mmdesc": "Um site full-stack para criar e compartilhar mixtapes.<br />Python, Django"
+  },
+  "projects": "Meus Projetos",
   "phoenix": "Por que Phoenix Medical",
-  "final": "Vamos construir algo significativo"
+  "final": "Vamos construir algo significativo juntos",
+  "infobar_0": "Bem-vindo à minha apresentação | Use as setas ou o menu no canto inferior esquerdo",
+  "infobar_1": "Descubra por que escolhi TI e o que me interessa",
+  "infobar_2": "Veja alguns dos meus projetos, minha experiência profissional e meu histórico de voluntariado",
+  "infobar_3": "Descubra por que Charlotte Stone é a escolha ideal para a Phoenix Medical",
+  "infobar_4": "Juntos, podemos criar algo significativo"
 }
