@@ -27,10 +27,19 @@
   },
   "projects": "My Projects",
   "phoenix": "Why Phoenix Medical",
+  "slide6": {
+    "reason1": "Shared commitment to Innovation",
+    "reason2": "Values that reflect my own",
+    "reason3": "Commitment to sustainability and responsibility",
+    "reason4": "Make a difference in the lives of others",
+    "reason5": "Opportunities for personal and professional growth"
+  },
   "final": "Let's Build Something Meaningful",
   "infobar_0": "Welcome to my presentation | Use the arrow keys to navigate or use the menu in the bottom left",
   "infobar_1": "Find out a little about why I chose IT and what interests me",
-  "infobar_2": "Take a look at some of the projects I've worked on in the past as well as my work and volunteering history",
-  "infobar_3": "Find out why Charlotte Stone is such a good fit for Phoenix Medical",
-  "infobar_4": "Working alongside one another, we can make something meaningful"
+  "infobar_2": "Take a look at some of the projects I've worked on in the past",
+  "infobar_3": "Take a look at my work history",
+  "infobar_4": "Learn about my volunteer history and how it has shaped my skills",
+  "infobar_5": "Find out why Charlotte Stone is such a good fit for Phoenix Medical",
+  "infobar_6": "Thank you for your time! If you have any questions, please feel free to ask"
 }

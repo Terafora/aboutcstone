@@ -26,11 +26,21 @@
     "mmdesc": "Um site full-stack para criar e compartilhar mixtapes.<br />Python, Django"
   },
   "projects": "Meus Projetos",
-  "phoenix": "Por que Phoenix Medical",
-  "final": "Vamos construir algo significativo juntos",
-  "infobar_0": "Bem-vindo à minha apresentação | Use as setas ou o menu no canto inferior esquerdo",
-  "infobar_1": "Descubra por que escolhi TI e o que me interessa",
-  "infobar_2": "Veja alguns dos meus projetos, minha experiência profissional e meu histórico de voluntariado",
-  "infobar_3": "Descubra por que Charlotte Stone é a escolha ideal para a Phoenix Medical",
-  "infobar_4": "Juntos, podemos criar algo significativo"
+  "phoenix": "Por que a Phoenix Medical",
+  "slide6": {
+    "reason1": "Compromisso compartilhado com a inovação",
+    "reason2": "Valores que refletem os meus",
+    "reason3": "Compromisso com a sustentabilidade e a responsabilidade",
+    "reason4": "Fazer a diferença na vida das pessoas",
+    "reason5": "Oportunidades para o meu crescimento pessoal e profissional"
+  },
+  "final": "Vamos construir algo significativo",
+  "infobar_0": "Bem-vinda à minha apresentação | Use as setas para navegar ou o menu no canto inferior esquerdo",
+  "infobar_1": "Vou contar um pouco sobre por que escolhi a área de TI e o que me interessa",
+  "infobar_2": "Conheça alguns dos projetos nos quais tenho trabalhado",
+  "infobar_3": "Conheça a minha trajetória profissional",
+  "infobar_4": "Saiba mais sobre o meu trabalho voluntário e como ele moldou as minhas habilidades",
+  "infobar_5": "Veja por que a Charlotte Stone é uma ótima escolha para a Phoenix Medical",
+  "infobar_6": "Obrigada pelo seu tempo! Se tiver alguma pergunta, por favor, fique à vontade para perguntar"
+
 }

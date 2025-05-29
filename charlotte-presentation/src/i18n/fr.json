@@ -27,10 +27,19 @@
   },
   "projects": "Mes Projets",
   "phoenix": "Pourquoi Phoenix Medical",
-  "final": "Construisons ensemble quelque chose de significatif",
-  "infobar_0": "Bienvenue dans ma présentation | Utilisez les flèches ou le menu en bas à gauche",
-  "infobar_1": "Découvrez pourquoi j'ai choisi l'IT et ce qui me passionne",
-  "infobar_2": "Explorez certains de mes projets, mon expérience professionnelle et mes activités bénévoles",
-  "infobar_3": "Découvrez pourquoi Charlotte Stone est le choix idéal pour Phoenix Medical",
-  "infobar_4": "Ensemble, nous pouvons créer quelque chose de significatif"
+  "slide6": {
+    "reason1": "Engagement commun pour l'innovation",
+    "reason2": "Des valeurs qui reflètent les miennes",
+    "reason3": "Engagement envers la durabilité et la responsabilité",
+    "reason4": "Faire une différence dans la vie des autres",
+    "reason5": "Des opportunités pour mon épanouissement personnel et professionnel"
+  },
+  "final": "Construisons quelque chose de significatif",
+  "infobar_0": "Bienvenue dans ma présentation | Utilisez les flèches pour naviguer ou le menu en bas à gauche",
+  "infobar_1": "Je vais vous parler un peu de pourquoi j'ai choisi l'informatique et ce qui m'intéresse",
+  "infobar_2": "Découvrez quelques-uns des projets sur lesquels j'ai travaillé",
+  "infobar_3": "Découvrez mon parcours professionnel",
+  "infobar_4": "Apprenez-en plus sur mon bénévolat et comment cela a façonné mes compétences",
+  "infobar_5": "Découvrez pourquoi Charlotte Stone est un excellent choix pour Phoenix Medical",
+  "infobar_6": "Merci pour votre attention ! Si vous avez des questions, n'hésitez pas à me les poser"
 }
