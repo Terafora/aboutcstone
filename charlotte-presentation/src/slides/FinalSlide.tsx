@@ -1,8 +1,7 @@
-import { useTranslation, Trans } from 'react-i18next';
+import { Trans } from 'react-i18next';
 import './FinalSlide.scss';
 
 const Final = () => {
-  const { t } = useTranslation();
   return (
     <div className="final">
       <h2>
