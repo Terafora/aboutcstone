@@ -16,9 +16,9 @@ const LanguageSelect = () => {
                 defaultValue={i18n.language}
             >
                 <option value="en">🇬🇧</option>
-                <option value="es">🇪🇸</option>
-                <option value="fr">🇫🇷</option>
                 <option value="jp">🇯🇵</option>
+                <option value="fr">🇫🇷</option>
+                <option value="es">🇪🇸</option>
                 <option value="de">🇩🇪</option>
                 <option value="pt">🇵🇹</option>
             </select>

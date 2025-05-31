@@ -26,6 +26,14 @@
     "mmdesc": "Un site full-stack pour créer et partager des mixtapes.<br />Python, Django"
   },
   "projects": "Mes Projets",
+  "slide4": {
+    "admiral_job_title": "Représentante Fidélité Client - Admiral Group",
+    "admiral_job_description": "J’assistais les clientes et clients pour leurs questions d’assurance et je m’efforçais de retenir celles et ceux qui envisageaient de quitter le service.",
+    "joytalk_job_title": "Joytalk - Professeure d’anglais",
+    "joytalk_job_description": "J’enseignais l’anglais dans plusieurs écoles à la campagne au Japon.",
+    "capgemini_job_title": "Ingénieure Logiciel - Capgemini",
+    "capgemini_job_description": "J’aidais les utilisatrices et utilisateurs finaux avec leurs problèmes techniques et je participais à l’installation et à la maintenance des systèmes."
+  },
   "phoenix": "Pourquoi Phoenix Medical",
   "slide6": {
     "reason1": "Engagement commun pour l'innovation",
@@ -34,6 +42,8 @@
     "reason4": "Faire une différence dans la vie des autres",
     "reason5": "Des opportunités pour mon épanouissement personnel et professionnel"
   },
+  "work_history": "Parcours professionnel",
+  "volunteer": "Bénévole",
   "final": "Construisons quelque chose de <1>Significatif</1>",
   "infobar_0": "Bienvenue dans ma présentation | Utilisez les flèches pour naviguer ou le menu en bas à gauche",
   "infobar_1": "Je vais vous parler un peu de pourquoi j'ai choisi l'informatique et ce qui m'intéresse",

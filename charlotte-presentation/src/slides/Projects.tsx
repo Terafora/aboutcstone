@@ -9,7 +9,7 @@ const Projects = () => {
 
     const projects = [
         {
-            title: t("slides.slide3"),
+            title: "LangBloom",
             date: "2025",
             description: t("slide3.lbdesc"),
             img: "",
@@ -20,7 +20,7 @@ const Projects = () => {
             date: "2024 - 2025",
             description: t("slide3.pevdesc"),
             img: PEVImg,
-            link: "https://github.com/Terafora/project-exit-velocity-blog"
+            link: "https://project-exit-velocity-blog.vercel.app"
         },
         {
             title: "YomiSaver",
@@ -44,16 +44,35 @@ const Projects = () => {
                 <h2 className="timeline-title">{t("projects")}</h2>
                 <div className="timeline">
                     {projects.map((project, idx) => (
-                        <div className="timeline-item" key={idx}>
+                        project.link ? (
+                          <a
+                            href={project.link}
+                            target="_blank"
+                            className="timeline-item"
+                            key={idx}
+                            rel="noopener noreferrer"
+                          >
                             <div className="timeline-accent">
                               {project.img && <img src={project.img} alt={project.title + ' logo'} />}
                             </div>
                             <div className="timeline-content">
-                                <span className="timeline-date">{project.date}</span>
-                                <h3 className="timeline-title">{project.title}</h3>
-                                <p className="timeline-description" dangerouslySetInnerHTML={{ __html: project.description }} />
+                              <span className="timeline-date">{project.date}</span>
+                              <h3 className="timeline-title">{project.title}</h3>
+                              <p className="timeline-description" dangerouslySetInnerHTML={{ __html: project.description }} />
                             </div>
-                        </div>
+                          </a>
+                        ) : (
+                          <div className="timeline-item" key={idx}>
+                            <div className="timeline-accent">
+                              {project.img && <img src={project.img} alt={project.title + ' logo'} />}
+                            </div>
+                            <div className="timeline-content">
+                              <span className="timeline-date">{project.date}</span>
+                              <h3 className="timeline-title">{project.title}</h3>
+                              <p className="timeline-description" dangerouslySetInnerHTML={{ __html: project.description }} />
+                            </div>
+                          </div>
+                        )
                     ))}
                 </div>
             </div>

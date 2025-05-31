@@ -3,6 +3,8 @@ $menu-bg-selected: #FFFCE0;
 $menu-text: #FFFFFF;
 $menu-text-muted: #999999;
 $menu-rank: #E3E869;
+$hover-bg: #0D1B4C;
+$hover-text: #6CCFF6;
 
 .timeline-title {
     text-align: center !important;
@@ -50,6 +52,8 @@ $menu-rank: #E3E869;
   padding-left: 1rem;
   list-style: none;
   transition: transform 0.2s ease-in-out;
+  text-decoration: none;
+  color: inherit;
 
   .timeline-accent {
     position: absolute;
@@ -93,6 +97,7 @@ $menu-rank: #E3E869;
   width: 85%;
   margin-left: 1rem;
   transform: skewX(-12deg);
+  transition: background 0.3s, color 0.3s;
 
   // Unskew child elements
   * {
@@ -119,13 +124,15 @@ $menu-rank: #E3E869;
     text-align: center;
     transform: none !important;
   }
-  .timeline-content::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -6px;
-    width: 6px;
-    height: 100%;
-    background: $menu-bg;
+
+  &:hover {
+    background: $hover-bg;
+    color: $hover-text;
+
+    .timeline-title, .timeline-description, .timeline-date {
+      color: $hover-text;
+    }
+
+    border-color: $hover-text;
   }
 }

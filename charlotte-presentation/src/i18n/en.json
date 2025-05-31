@@ -19,13 +19,21 @@
     "reason4": "I want tech to be accessible",
     "reason5": "IT lets me keep learning and growing"
   },
+  "projects": "My Projects",
   "slide3": {
     "lbdesc": "A full-stack SaaS for assisting with the admin side of language teaching.Currently a WIP so link withheld.<br />React, TypeScript,PWA,Nhost (A very AI assisted project)",
     "pevdesc": "A full-stack MERN blog for sharing progress on personal projects and learning.<br />MERN, JWT, Typsecript",
     "ysdesc": "A Chrome extension for simplifying the learning process for Japanese.<br />HTML, CSS, Vanilla JavaScript",
     "mmdesc": "A full-stack site for creating and sharing mixtapes to share with others.<br />Python, Django"
   },
-  "projects": "My Projects",
+  "slide4": {
+    "admiral_job_title": "Customer Loyalty Representative - Admiral Group",
+    "admiral_job_description": "I assisted customers with insurance queries and aimed to retain customers who were looking to leave the service.",
+    "joytalk_job_title": "Joytalk - English Language Teacher",
+    "joytalk_job_description": "I taught English across multiple schools in the Japanese countryside.",
+    "capgemini_job_title": "Software Engineer - Capgemini",
+    "capgemini_job_description": "I assisted end users with their technical issues as well as helped setup and maintain systems."
+  },
   "phoenix": "Why Phoenix Medical",
   "slide6": {
     "reason1": "Shared commitment to Innovation",
@@ -34,6 +42,8 @@
     "reason4": "Make a difference in the lives of others",
     "reason5": "Opportunities for personal and professional growth"
   },
+  "work_history": "Work History",
+  "volunteer": "Volunteer",
   "final": "Let's Build Something <1>Meaningful</1>",
   "infobar_0": "Welcome to my presentation | Use the arrow keys to navigate or use the menu in the bottom left",
   "infobar_1": "Find out a little about why I chose IT and what interests me",

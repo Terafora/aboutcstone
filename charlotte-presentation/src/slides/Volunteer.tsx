@@ -35,18 +35,25 @@ const Volunteer = () => {
             <div className="timeline-container">
                 <h2 className="timeline-title">{t("volunteer")}</h2>
                 <div className="timeline">
-                    {projects.map((project, idx) => (
-                        <div className="timeline-item" key={idx}>
-                            <div className="timeline-accent">
-                              {project.img && <img src={project.img} alt={project.title + ' logo'} />}
-                            </div>
-                            <div className="timeline-content">
-                                <span className="timeline-date">{project.date}</span>
-                                <h3 className="timeline-title">{project.title}</h3>
-                                <p className="timeline-description" dangerouslySetInnerHTML={{ __html: project.description }} />
-                            </div>
-                        </div>
-                    ))}
+                    {projects.map((project, idx) => {
+                        const isClickable = !!project.link;
+                        const Wrapper = isClickable ? 'a' : 'div';
+                        const wrapperProps = isClickable
+                            ? { href: project.link, target: "_blank", rel: "noopener noreferrer", className: "timeline-item" }
+                            : { className: "timeline-item" };
+                        return (
+                            <Wrapper key={idx} {...wrapperProps}>
+                                <div className="timeline-accent">
+                                    {project.img && <img src={project.img} alt={project.title + ' logo'} />}
+                                </div>
+                                <div className="timeline-content">
+                                    <span className="timeline-date">{project.date}</span>
+                                    <h3 className="timeline-title">{project.title}</h3>
+                                    <p className="timeline-description" dangerouslySetInnerHTML={{ __html: project.description }} />
+                                </div>
+                            </Wrapper>
+                        );
+                    })}
                 </div>
             </div>
         </div>

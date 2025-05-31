@@ -4,36 +4,35 @@ import JT from '../assets/bg-items/JT.jpg';
 import CAP from '../assets/bg-items/capgemini.png';
 import ADM from '../assets/bg-items/admiral_group_plc_logo.jpg';
 
-const work = [
-    {
-        title: "Customer Loyalty Representative - Admiral Group",
-        date: "2022 - 2023",
-        description: 'I assisted customers with insurance queries and aimed to retain customers who were looking to leave the service.',
-        img: ADM,
-        link: ""
-    },
-    {
-        title: "English Language Teacher",
-        date: "2018 -2020",
-        description: "I taught English across multiple schools in the Japanese countryside.",
-        img: JT,
-        link: ""
-    },
-    {
-        title: "Software Engineer - Capgemini",
-        date: "2011 - 2016",
-        description: "I assisted end users with their technical issues as well as helped setup and maintain systems.",
-        img: CAP,
-        link: ""
-    }
-];
-
 const Work = () => {
     const { t } = useTranslation();
+    const work = [
+        {
+            title: t("slide4.admiral_job_title"),
+            date: "2022 - 2023",
+            description: t("slide4.admiral_job_description"),
+            img: ADM,
+            link: ""
+        },
+        {
+            title: t("slide4.joytalk_job_title"),
+            date: "2018 -2020",
+            description: t("slide4.joytalk_job_description"),
+            img: JT,
+            link: ""
+        },
+        {
+            title: t("slide4.capgemini_job_title"),
+            date: "2011 - 2016",
+            description: t("slide4.capgemini_job_description"),
+            img: CAP,
+            link: ""
+        }
+    ];
     return (
         <div className="diagonal-scroll-wrapper">
             <div className="timeline-container">
-                <h2 className="timeline-title">{t("work history")}</h2>
+                <h2 className="timeline-title">{t("work_history")}</h2>
                 <div className="timeline">
                     {work.map((work, idx) => (
                         <div className="timeline-item" key={idx}>
