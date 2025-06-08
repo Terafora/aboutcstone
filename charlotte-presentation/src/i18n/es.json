@@ -25,6 +25,19 @@
     "ysdesc": "Una extensión de Chrome para simplificar el aprendizaje del japonés.<br />HTML, CSS, Vanilla JavaScript",
     "mmdesc": "Un sitio web full-stack para crear y compartir mixtapes.<br />Python, Django"
   },
+  "volunteer-title": {
+  "freecodecamp_title": "Traductora técnica del inglés al japonés - FreeCodeCamp",
+  "freecodecamp_date": "2024 - Actualidad",
+  "freecodecamp_description": "Ayudo a traducir artículos tutoriales que brindan educación gratuita en programación a personas que hablan japonés",
+
+  "codeinstitute-title": "Líder tecnológica - Code Institute",
+  "codeinstitute_date": "2023 - 2024",
+  "codeinstitute_description": "Lideré un canal ofreciendo asistencia a otros estudiantes que cursaban programas full-stack.",
+
+  "yuspeak_title": "Traductora del japonés al inglés - YuSpeak / HelloChinese",
+  "yuspeak_date": "2021 - 2022",
+  "yu_speak_description": "Colaboré en la traducción de textos para una aplicación de aprendizaje de idiomas"
+  },
   "projects": "Mis Proyectos",
   "slide4": {
     "admiral_job_title": "Representante de Fidelización de Clientes - Admiral Group",

@@ -25,6 +25,19 @@
     "ysdesc": "日本語学習を簡単にするChrome拡張機能。<br />HTML、CSS、Vanilla JavaScript",
     "mmdesc": "ミックステープを作成・共有するためのフルスタックサイト。<br />Python、Django"
   },
+  "volunteer-title": {
+  "freecodecamp_title": "英語から日本語への技術翻訳者 - FreeCodeCamp",
+  "freecodecamp_date": "2024年 - 現在",
+  "freecodecamp_description": "日本語話者に無料のプログラミング教育を提供するチュートリアル記事の翻訳を手伝っています",
+  
+  "codeinstitute-title": "テクノロジーリード - Code Institute",
+  "codeinstitute_date": "2023年 - 2024年",
+  "codeinstitute_description": "フルスタックソフトウェアコースを受講している他の学生を支援するチャンネルのリーダーを務めました。",
+  
+  "yuspeak_title": "日本語から英語への翻訳者 - YuSpeak / HelloChinese",
+  "yuspeak_date": "2021年 - 2022年",
+  "yu_speak_description": "語学学習アプリのテキスト翻訳を担当しました"
+  },
   "projects": "私のプロジェクト",
   "slide4": {
     "admiral_job_title": "カスタマー・ロイヤルティ・レプレゼンタティブ - アドミラル・グループ",

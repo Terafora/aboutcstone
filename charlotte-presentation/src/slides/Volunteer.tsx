@@ -4,32 +4,33 @@ import FCC from "../assets/bg-items/free-code-camp.png";
 import CI from "../assets/bg-items/CI.png";
 import YS from "../assets/bg-items/yuspeak.png"
 
-const projects = [
-    {
-        title: "English to Japanese Technical Translator - FreeCodeCamp",
-        date: "2024 - Current",
-        description: 'I help translate tutorial articles which provide free programming education to Japanese speakers',
-        img: FCC,
-        link: "https://www.freecodecamp.org/japanese/news/author/charlotte-stone/"
-    },
-    {
-        title: "Technology Lead - Code Institute",
-        date: "2023 - 2024",
-        description: "A channel lead on providing assistance to other students going through various full-stack software courses.",
-        img: CI,
-        link: ""
-    },
-    {
-        title: "Japanese to English Translator - YuSpeak / HelloChinese",
-        date: "2021 - 2022",
-        description: "Helped translate text for a language learning Application",
-        img: YS,
-        link: ""
-    },
-];
-
 const Volunteer = () => {
     const { t } = useTranslation();
+
+    const projects = [
+        {
+            title: t("volunteer-title.freecodecamp_title"),
+            date: t("volunteer-title.freecodecamp_date"),
+            description: t("volunteer-title.freecodecamp_description"),
+            img: FCC,
+            link: "https://www.freecodecamp.org/japanese/news/author/charlotte-stone/"
+        },
+        {
+            title: t("volunteer-title.codeinstitute-title"),
+            date: t("volunteer-title.codeinstitute_date"),
+            description: t("volunteer-title.codeinstitute_description"),
+            img: CI,
+            link: ""
+        },
+        {
+            title: t("volunteer-title.yuspeak_title"),
+            date: t("volunteer-title.yuspeak_date"),
+            description: t("volunteer-title.yu_speak_description"),
+            img: YS,
+            link: ""
+        },
+    ];
+
     return (
         <div className="diagonal-scroll-wrapper">
             <div className="timeline-container">
@@ -59,6 +60,5 @@ const Volunteer = () => {
         </div>
     );
 };
-
 
 export default Volunteer;
